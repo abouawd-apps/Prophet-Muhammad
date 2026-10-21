@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كيف جمع سيدنا محمد ﷺ بين الثروة والزهد؟ | Abouawd Studio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Cairo & Amiri for Arabic, Plus Jakarta Sans & Playfair Display for English -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        emerald: {
+                            950: '#022c22',
+                        },
+                        gold: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            200: '#fde68a',
+                            300: '#fcd34d',
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                        }
+                    },
+                    fontFamily: {
+                        ar: ['Cairo', 'sans-serif'],
+                        en: ['Plus Jakarta Sans', 'sans-serif'],
+                        serifAr: ['Amiri', 'serif'],
+                        serifEn: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Dynamic Font Switching based on document direction */
+        html[dir="rtl"] body {
+            font-family: 'Cairo', sans-serif;
+        }
+        html[dir="ltr"] body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        html[dir="rtl"] .font-quote {
+            font-family: 'Amiri', serif;
+        }
+        html[dir="ltr"] .font-quote {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Subtle Islamic Geometric Pattern Background */
+        .islamic-bg {
+            background-image: radial-gradient(rgba(16, 185, 129, 0.08) 1.5px, transparent 1.5px),
+                              radial-gradient(rgba(245, 158, 11, 0.06) 1.5px, transparent 1.5px);
+            background-size: 36px 36px;
+            background-position: 0 0, 18px 18px;
+        }
+
+        /* Smooth transitions for theme changes */
+        body, .theme-card, .theme-nav, button, div, span, p, h1, h2, h3, h4 {
+            transition: background-color 0.25s ease, border-color 0.25s ease, color 0.2s ease, transform 0.2s ease;
+        }
+
+        /* Custom glowing border effect */
+        .gold-glow {
+            box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.25);
+        }
+        .emerald-glow {
+            box-shadow: 0 0 30px -5px rgba(16, 185, 129, 0.25);
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.1);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(16, 185, 129, 0.45);
+            border-radius: 9999px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(16, 185, 129, 0.75);
+        }
+    </style>
+</head>
+
+<body class="bg-stone-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 islamic-bg min-h-screen flex flex-col selection:bg-emerald-500 selection:text-white">
+
+    <!-- Toast Notification Container (No alert() used) -->
+    <div id="toast-container" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 pointer-events-none transition-all duration-300 opacity-0 translate-y-4">
+        <div class="bg-emerald-900 dark:bg-emerald-600 text-white px-5 py-3 rounded-2xl shadow-2xl flex items-center gap-3 border border-emerald-400/30">
+            <i class="fa-solid fa-circle-check text-gold-400 text-lg"></i>
+            <span id="toast-message" class="font-semibold text-sm"></span>
+        </div>
+    </div>
+
+    <!-- Top Sticky Navigation Bar -->
+    <header class="sticky top-0 z-40 backdrop-blur-md bg-white/85 dark:bg-slate-900/85 border-b border-stone-200/80 dark:border-slate-800/80 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-3">
+            
+            <!-- Brand & Channel Identity -->
+            <div class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-emerald-600 to-teal-800 dark:from-emerald-500 dark:to-teal-700 flex items-center justify-center text-white shadow-md emerald-glow shrink-0">
+                    <i class="fa-solid fa-scale-balanced text-lg text-gold-300"></i>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/90 text-emerald-800 dark:text-emerald-300 border border-emerald-300/40 dark:border-emerald-700/50">
+                            Abouawd Studio
+                        </span>
+                        <span id="nav-badge" class="hidden sm:inline-block text-xs text-amber-600 dark:text-gold-400 font-semibold">
+                            • تجربة تفاعلية
+                        </span>
+                    </div>
+                    <h1 id="nav-title" class="text-base sm:text-lg font-extrabold text-slate-900 dark:text-white line-clamp-1 mt-0.5">
+                        الثروة والزهد في حياة النبي ﷺ
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Quick Navigation Links (Desktop) -->
+            <nav class="hidden lg:flex items-center gap-1 bg-stone-100 dark:bg-slate-800/70 p-1.5 rounded-2xl border border-stone-200/60 dark:border-slate-700/60">
+                <a href="#video-section" data-i18n="nav_video" class="px-3.5 py-1.5 rounded-xl text-sm font-semibold hover:bg-white dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition">الفيديو والمحاور</a>
+                <a href="#myths-section" data-i18n="nav_myths" class="px-3.5 py-1.5 rounded-xl text-sm font-semibold hover:bg-white dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition">تصحيح المفاهيم</a>
+                <a href="#timeline-section" data-i18n="nav_timeline" class="px-3.5 py-1.5 rounded-xl text-sm font-semibold hover:bg-white dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition">رحلة السيرة</a>
+                <a href="#simulator-section" data-i18n="nav_simulator" class="px-3.5 py-1.5 rounded-xl text-sm font-semibold hover:bg-white dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition">إدارة الثروة</a>
+                <a href="#quiz-section" data-i18n="nav_quiz" class="px-3.5 py-1.5 rounded-xl text-sm font-semibold hover:bg-white dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition">اختبر فهمك</a>
+            </nav>
+
+            <!-- Action Controls: Language Toggle & Dark Mode Toggle -->
+            <div class="flex items-center gap-2.5">
+                <!-- Language Switcher Button -->
+                <button id="lang-toggle-btn" onclick="toggleLanguage()" class="flex items-center gap-2 px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm border border-stone-300/70 dark:border-slate-700 shadow-sm active:scale-95" title="Switch Language / تغيير اللغة">
+                    <i class="fa-solid fa-earth-americas text-emerald-600 dark:text-emerald-400"></i>
+                    <span id="lang-btn-text">English</span>
+                </button>
+
+                <!-- Dark/Light Theme Toggle Button -->
+                <button id="theme-toggle-btn" onclick="toggleTheme()" class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-gold-400 flex items-center justify-center border border-stone-300/70 dark:border-slate-700 shadow-sm active:scale-95" title="Toggle Dark Mode / الوضع الليلي">
+                    <i id="theme-icon" class="fa-solid fa-sun text-lg"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-16">
+
+        <!-- HERO & VIDEO SECTION -->
+        <section id="video-section" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-emerald-950 via-slate-900 to-slate-950 text-white p-6 sm:p-10 lg:p-12 shadow-2xl border border-emerald-500/20">
+            <!-- Decorative Glow Orbs -->
+            <div class="absolute -top-24 -right-24 w-80 h-80 bg-emerald-500/15 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -bottom-24 -left-24 w-80 h-80 bg-amber-500/15 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+                
+                <!-- Hero Text Column -->
+                <div class="lg:col-span-6 space-y-5">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs sm:text-sm font-bold">
+                        <span class="w-2 h-2 rounded-full bg-gold-400 animate-ping"></span>
+                        <span data-i18n="hero_tag">قراءة تفاعلية في الاقتصاد والسيرة النبوية</span>
+                    </div>
+
+                    <h2 data-i18n="hero_title" class="text-2xl sm:text-4xl lg:text-5xl font-black leading-tight text-white">
+                        كيف جمع سيدنا محمد ﷺ بين <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-amber-400 to-yellow-200">الثروة والزهد؟</span>
+                    </h2>
+
+                    <p data-i18n="hero_subtitle" class="text-slate-300 text-sm sm:text-base lg:text-lg leading-relaxed">
+                        هل كان النبي ﷺ فقيراً معدماً كما يظن البعض، أم كان غنياً منفقاً مَلَكَ الدنيا بيده ولم يضعها في قلبه؟ استكشف من خلال هذا التطبيق التفاعلي كيف أدار النبي ﷺ ثروات طائلة مع اختياره لقمة العيش البسيطة إيثاراً لأمته.
+                    </p>
+
+                    <!-- Quranic Verse Highlight Card -->
+                    <div class="p-4 sm:p-5 rounded-2xl bg-white/5 backdrop-blur-md border border-gold-400/30 flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-gold-500/20 border border-gold-400/40 flex items-center justify-center shrink-0 text-gold-300">
+                            <i class="fa-solid fa-book-quran text-xl"></i>
+                        </div>
+                        <div>
+                            <p id="hero-ayah" class="font-quote text-xl sm:text-2xl font-bold text-gold-300 tracking-wide">
+                                ﴿ وَوَجَدَكَ عَائِلًا فَأَغْنَىٰ ﴾
+                            </p>
+                            <p data-i18n="hero_ayah_ref" class="text-xs sm:text-sm text-slate-300 mt-1">
+                                سورة الضحى: الآية 8 — امتنان إلهي بالغنى بعد العيلة، والجمع بين شكر الغني وصبر الزاهد.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Core Golden Rule Pills -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+                        <div class="bg-slate-800/70 border border-slate-700/80 rounded-2xl p-3 text-center">
+                            <div class="text-gold-400 font-extrabold text-lg sm:text-xl"><i class="fa-solid fa-hand-holding-Precious"></i> <span data-i18n="stat_1_val">الثروة في اليد</span></div>
+                            <div data-i18n="stat_1_lbl" class="text-xs text-slate-300 mt-0.5">عمل وتجارة وتمكين</div>
+                        </div>
+                        <div class="bg-slate-800/70 border border-slate-700/80 rounded-2xl p-3 text-center">
+                            <div class="text-emerald-400 font-extrabold text-lg sm:text-xl"><span data-i18n="stat_2_val">الزهد في القلب</span></div>
+                            <div data-i18n="stat_2_lbl" class="text-xs text-slate-300 mt-0.5">تحرر كامل من التعلق</div>
+                        </div>
+                        <div class="col-span-2 sm:col-span-1 bg-slate-800/70 border border-slate-700/80 rounded-2xl p-3 text-center">
+                            <div class="text-amber-300 font-extrabold text-lg sm:text-xl"><span data-i18n="stat_3_val">عطاء بلا حدود</span></div>
+                            <div data-i18n="stat_3_lbl" class="text-xs text-slate-300 mt-0.5">أجود من الريح المرسلة</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Embedded Video Player & Interactive Chapter Highlights -->
+                <div class="lg:col-span-6 space-y-4">
+                    <div class="rounded-2xl overflow-hidden border-2 border-emerald-500/40 shadow-2xl bg-black aspect-video relative group">
+                        <iframe 
+                            id="yt-player"
+                            class="w-full h-full"
+                            src="https://www.youtube.com/embed/90P_Y-HloWo?rel=0" 
+                            title="كيف جمع سيدنا محمد ﷺ بين الثروة والزهد؟"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <!-- Video Meta & Direct Link Bar -->
+                    <div class="flex flex-wrap items-center justify-between gap-3 bg-slate-900/90 border border-slate-800 px-4 py-3 rounded-2xl">
+                        <div class="flex items-center gap-3">
+                            <span class="w-9 h-9 rounded-xl bg-red-600/20 border border-red-500/40 text-red-400 flex items-center justify-center">
+                                <i class="fa-brands fa-youtube text-lg"></i>
+                            </span>
+                            <div>
+                                <div class="text-xs text-slate-400" data-i18n="video_channel_lbl">المصدر المرئي • Abouawd Studio</div>
+                                <div class="text-sm font-bold text-white" data-i18n="video_duration_lbl">المدة: 5:39 دقائق — خلاصة مركزة</div>
+                            </div>
+                        </div>
+                        <a href="https://youtu.be/90P_Y-HloWo?si=KgM_vXRhmT6oXyaU" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold shadow transition">
+                            <span data-i18n="watch_on_yt">مشاهدة على يوتيوب</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </a>
+                    </div>
+
+                    <!-- Interactive Video Key Pillars Selector -->
+                    <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-4">
+                        <div class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2.5 flex items-center gap-2">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span data-i18n="video_pillars_title">اضغط لاستعراض مرتكزات الفيديو الأربع:</span>
+                        </div>
+                        <div id="pillar-buttons" class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-3">
+                            <!-- Populated dynamically by JS -->
+                        </div>
+                        <div id="pillar-display" class="p-3.5 rounded-xl bg-slate-950/90 border border-emerald-500/30 text-xs sm:text-sm text-slate-200 leading-relaxed">
+                            <!-- Populated dynamically by JS -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="myths-section" class="space-y-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-stone-200 dark:border-slate-800 pb-4">
+                <div>
+                    <span data-i18n="sec1_badge" class="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full">
+                        تحرير المفاهيم
+                    </span>
+                    <h3 data-i18n="sec1_title" class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-2">
+                        شبهات شائعة مقابل الحقيقة النبوية
+                    </h3>
+                </div>
+                <p data-i18n="sec1_desc" class="text-sm text-slate-600 dark:text-slate-400 max-w-xl">
+                    اضغط على أي بطاقة للتبديل بين الفهم الخاطئ الشائع وبين الحقيقة التاريخية والشرعية حول غنى النبي ﷺ وزهده.
+                </p>
+            </div>
+
+            <!-- Interactive Cards Grid -->
+            <div id="myths-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Populated dynamically via JS for full bilingual reactivity -->
+            </div>
+        </section>
+
+        <section id="timeline-section" class="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-10 shadow-xl border border-stone-200/80 dark:border-slate-800 space-y-8">
+            <div class="text-center max-w-3xl mx-auto space-y-2">
+                <span data-i18n="sec2_badge" class="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-gold-400 bg-amber-500/10 px-3 py-1 rounded-full">
+                    التدرج التاريخي في السيرة
+                </span>
+                <h3 data-i18n="sec2_title" class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">
+                    الخط الزمني التفاعلي: من الكسب التجاري إلى التمكين والإنفاق
+                </h3>
+                <p data-i18n="sec2_desc" class="text-sm sm:text-base text-slate-600 dark:text-slate-400">
+                    مرت حياة النبي ﷺ بمحطات اقتصادية متنوعة؛ تنقّل بين المراحل الخمس لترى كيف تعامل ﷺ مع كل ظرف بحكمة بالغة.
+                </p>
+            </div>
+
+            <!-- Timeline Step Selector Buttons -->
+            <div id="timeline-tabs" class="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
+                <!-- Populated by JS -->
+            </div>
+
+            <!-- Active Timeline Stage Detail Card -->
+            <div id="timeline-content" class="rounded-2xl bg-stone-50 dark:bg-slate-950/90 border border-stone-200 dark:border-slate-800 p-6 sm:p-8">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+        <section id="simulator-section" class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            
+            <!-- Left Column: Sources & Allocation Visualizer (7 cols) -->
+            <div class="lg:col-span-7 bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 shadow-xl border border-stone-200/80 dark:border-slate-800 space-y-6">
+                <div>
+                    <span data-i18n="sec3_badge" class="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full">
+                        الاقتصاد النبوي في أرقام ومصارف
+                    </span>
+                    <h3 data-i18n="sec3_title" class="text-2xl font-extrabold text-slate-900 dark:text-white mt-2">
+                        من أين جاءت ثروة النبي ﷺ وأين كانت تذهب؟
+                    </h3>
+                    <p data-i18n="sec3_desc" class="text-sm text-slate-600 dark:text-slate-400 mt-1">
+                        اختر مصدر الدخل أو مصرف الإنفاق لاستكشاف كيف حوّل النبي ﷺ الثروة من اكتناز شخصي إلى نهضة مجتمعية شاملة.
+                    </p>
+                </div>
+
+                <!-- Toggle Mode: Sources vs Expenditures -->
+                <div class="flex rounded-2xl bg-stone-100 dark:bg-slate-800 p-1.5 border border-stone-200 dark:border-slate-700">
+                    <button id="btn-tab-expenditures" onclick="setEconomyTab('expenditures')" class="flex-1 py-2.5 px-4 rounded-xl text-xs sm:text-sm font-bold transition bg-emerald-600 text-white shadow">
+                        <i class="fa-solid fa-hand-holding-heart mx-1"></i>
+                        <span data-i18n="eco_tab_exp">مصارف إنفاق النبي ﷺ</span>
+                    </button>
+                    <button id="btn-tab-sources" onclick="setEconomyTab('sources')" class="flex-1 py-2.5 px-4 rounded-xl text-xs sm:text-sm font-bold transition text-slate-700 dark:text-slate-300">
+                        <i class="fa-solid fa-coins mx-1"></i>
+                        <span data-i18n="eco_tab_src">مصادر الثروة النبوية</span>
+                    </button>
+                </div>
+
+                <!-- Dynamic Bars & Interactive Inspector -->
+                <div id="economy-bars-container" class="space-y-4">
+                    <!-- Populated by JS -->
+                </div>
+
+                <!-- Selected Item Deep Explanation Box -->
+                <div id="economy-detail-box" class="p-4 sm:p-5 rounded-2xl bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-500/30">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- Right Column: Interactive Balance Simulator (Hand vs Heart) (5 cols) -->
+            <div class="lg:col-span-5 bg-gradient-to-b from-slate-900 to-slate-950 text-white rounded-3xl p-6 sm:p-8 shadow-xl border border-gold-500/30 space-y-6">
+                <div class="flex items-center justify-between">
+                    <span data-i18n="sim_badge" class="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-500/10 border border-gold-400/20 px-3 py-1 rounded-full">
+                        معادلة التوازن النبوي
+                    </span>
+                    <i class="fa-solid fa-compass text-gold-400 text-xl"></i>
+                </div>
+
+                <h3 data-i18n="sim_title" class="text-xl sm:text-2xl font-extrabold text-white">
+                    مواقف خالدة: الغنى الأقصى مع الزهد الأرقى
+                </h3>
+                <p data-i18n="sim_desc" class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                    استعرض نماذج حقيقية من حياة النبي ﷺ تثبت أن زهده كان اختياراً مع القدرة التامة على الترف، وليس عجزاً أو فقراً.
+                </p>
+
+                <!-- Scenario Selector Pills -->
+                <div id="scenario-buttons" class="flex flex-col gap-2.5">
+                    <!-- Populated by JS -->
+                </div>
+
+                <!-- Scenario Breakdown Display -->
+                <div id="scenario-display" class="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-4">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+        </section>
+
+        <section id="quiz-section" class="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-10 shadow-xl border border-stone-200/80 dark:border-slate-800 space-y-8">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 dark:border-slate-800 pb-5">
+                <div>
+                    <span data-i18n="sec4_badge" class="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full">
+                        تفاعل وتطبيق عملي
+                    </span>
+                    <h3 data-i18n="sec4_title" class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-2">
+                        اختبر فهمك & بوصلة التوازن المالي
+                    </h3>
+                </div>
+
+                <!-- Switch between Knowledge Quiz and Personal Compass -->
+                <div class="flex bg-stone-100 dark:bg-slate-800 p-1.5 rounded-2xl border border-stone-200 dark:border-slate-700 self-start">
+                    <button id="mode-quiz-btn" onclick="switchInteractiveMode('quiz')" class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-emerald-600 text-white shadow transition">
+                        <i class="fa-solid fa-circle-question mx-1"></i>
+                        <span data-i18n="tab_quiz">اختبار المعرفة (5 أسئلة)</span>
+                    </button>
+                    <button id="mode-compass-btn" onclick="switchInteractiveMode('compass')" class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-300 transition">
+                        <i class="fa-solid fa-Sliders mx-1"></i>
+                        <span data-i18n="tab_compass">مقياس الزهد العملي</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mode 1: Interactive Quiz Container -->
+            <div id="quiz-container" class="space-y-6">
+                <!-- Populated by JS -->
+            </div>
+
+            <!-- Mode 2: Personal Financial Zuhd Compass Container -->
+            <div id="compass-container" class="hidden space-y-6">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+        <section class="space-y-6">
+            <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-3">
+                <div>
+                    <span data-i18n="sec5_badge" class="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-gold-400 bg-amber-500/10 px-3 py-1 rounded-full">
+                        بطاقات قابلة للنسخ والمشاركة
+                    </span>
+                    <h3 data-i18n="sec5_title" class="text-2xl font-extrabold text-slate-900 dark:text-white mt-2">
+                        درر وحِكم مستخلصة من الموضوع
+                    </h3>
+                </div>
+                <p data-i18n="sec5_desc" class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                    اضغط على زر النسخ في أي بطاقة لمشاركة الفائدة مع أصدقائك.
+                </p>
+            </div>
+
+            <div id="quotes-grid" class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="mt-12 bg-slate-900 dark:bg-slate-950 text-white border-t border-emerald-500/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+            
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center justify-between">
+                <!-- Channel & Video Info -->
+                <div class="md:col-span-6 space-y-3">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white font-bold shadow">
+                            <i class="fa-solid fa-mosque text-gold-300"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-extrabold text-lg text-white">Abouawd Studio</h4>
+                            <p data-i18n="footer_sub" class="text-xs text-slate-400">محتوى هادف يجمع بين الأصالة والوعي المعاصر</p>
+                        </div>
+                    </div>
+                    <p data-i18n="footer_summary" class="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-xl">
+                        الخلاصة: لم يكن زهد النبي ﷺ عن فقر أو قلة حيلة، بل كان غنياً بفضل الله، مُمكَّناً في الأرض، لكنه جعل الدنيا في يده لا في قلبه، فجمع بين قمة الكسب الحلال وقمة الإنفاق والعطاء.
+                    </p>
+                </div>
+
+                <!-- Highlighted Designer Signature Card (Mandatory Requirement) -->
+                <div class="md:col-span-6 flex md:justify-end">
+                    <div class="w-full sm:w-auto rounded-2xl bg-gradient-to-r from-emerald-950 via-slate-900 to-emerald-950 p-5 sm:p-6 border-2 border-gold-400/50 gold-glow text-center sm:text-right space-y-2">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-500/20 text-gold-300 text-xs font-bold">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            <span data-i18n="footer_credit_badge">توقيع التصميم والتطوير</span>
+                        </div>
+                        <p class="text-base sm:text-xl font-black text-white tracking-wide">
+                            تصميم محمد عوض خير بمساعدة Gemini 4 Argon
+                        </p>
+                        <p id="footer-credit-en" class="text-xs sm:text-sm text-emerald-300 font-medium">
+                            Designed by Mohamed Awad Khair with the assistance of Gemini 4 Argon
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800/80 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+                <div>
+                    <span data-i18n="footer_rights">جميع الحقوق محفوظة © Abouawd Studio — تطبيق ويب تفاعلي</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="https://youtu.be/90P_Y-HloWo?si=KgM_vXRhmT6oXyaU" target="_blank" rel="noopener noreferrer" class="hover:text-gold-400 transition flex items-center gap-1.5">
+                        <i class="fa-brands fa-youtube text-red-500"></i>
+                        <span data-i18n="footer_yt_link">رابط الفيديو الأصلي على يوتيوب</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        // Application State
+        let currentLang = 'ar';
+        let isDark = true;
+        let activePillarIndex = 0;
+        let flippedMyths = { 0: false, 1: false, 2: false };
+        let activeTimelineIndex = 0;
+        let currentEconomyTab = 'expenditures';
+        let selectedEconomyItemIndex = 0;
+        let activeScenarioIndex = 0;
+        let interactiveMode = 'quiz'; // 'quiz' or 'compass'
+        let currentQuizAnswers = {};
+        let compassValues = [80, 85, 75];
+
+        // Bilingual Content Database
+        const i18nData = {
+            ar: {
+                nav_badge: "• تجربة تفاعلية",
+                nav_title: "الثروة والزهد في حياة النبي ﷺ",
+                nav_video: "الفيديو والمحاور",
+                nav_myths: "تصحيح المفاهيم",
+                nav_timeline: "رحلة السيرة",
+                nav_simulator: "إدارة الثروة",
+                nav_quiz: "اختبر فهمك",
+                hero_tag: "قراءة تفاعلية في الاقتصاد والسيرة النبوية",
+                hero_title: 'كيف جمع سيدنا محمد ﷺ بين <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-amber-400 to-yellow-200">الثروة والزهد؟</span>',
+                hero_subtitle: "هل كان النبي ﷺ فقيراً معدماً كما يظن البعض، أم كان غنياً منفقاً مَلَكَ الدنيا بيده ولم يضعها في قلبه؟ استكشف من خلال هذا التطبيق التفاعلي كيف أدار النبي ﷺ ثروات طائلة مع اختياره لقمة العيش البسيطة إيثاراً لأمته.",
+                hero_ayah_ref: "سورة الضحى: الآية 8 — امتنان إلهي بالغنى بعد العيلة، والجمع بين شكر الغني وصبر الزاهد.",
+                stat_1_val: "الثروة في اليد",
+                stat_1_lbl: "عمل وتجارة وتمكين",
+                stat_2_val: "الزهد في القلب",
+                stat_2_lbl: "تحرر كامل من التعلق",
+                stat_3_val: "عطاء بلا حدود",
+                stat_3_lbl: "أجود من الريح المرسلة",
+                video_channel_lbl: "المصدر المرئي • Abouawd Studio",
+                video_duration_lbl: "المدة: 5:39 دقائق — خلاصة مركزة",
+                watch_on_yt: "مشاهدة على يوتيوب",
+                video_pillars_title: "اضغط لاستعراض مرتكزات الفيديو الأربع:",
+                sec1_badge: "تحرير المفاهيم",
+                sec1_title: "شبهات شائعة مقابل الحقيقة النبوية",
+                sec1_desc: "اضغط على أي بطاقة للتبديل بين الفهم الخاطئ الشائع وبين الحقيقة التاريخية والشرعية حول غنى النبي ﷺ وزهده.",
+                sec2_badge: "التدرج التاريخي في السيرة",
+                sec2_title: "الخط الزمني التفاعلي: من الكسب التجاري إلى التمكين والإنفاق",
+                sec2_desc: "مرت حياة النبي ﷺ بمحطات اقتصادية متنوعة؛ تنقّل بين المراحل الخمس لترى كيف تعامل ﷺ مع كل ظرف بحكمة بالغة.",
+                sec3_badge: "الاقتصاد النبوي في أرقام ومصارف",
+                sec3_title: "من أين جاءت ثروة النبي ﷺ وأين كانت تذهب؟",
+                sec3_desc: "اختر مصدر الدخل أو مصرف الإنفاق لاستكشاف كيف حوّل النبي ﷺ الثروة من اكتناز شخصي إلى نهضة مجتمعية شاملة.",
+                eco_tab_exp: "مصارف إنفاق النبي ﷺ",
+                eco_tab_src: "مصادر الثروة النبوية",
+                sim_badge: "معادلة التوازن النبوي",
+                sim_title: "مواقف خالدة: الغنى الأقصى مع الزهد الأرقى",
+                sim_desc: "استعرض نماذج حقيقية من حياة النبي ﷺ تثبت أن زهده كان اختياراً مع القدرة التامة على الترف، وليس عجزاً أو فقراً.",
+                sec4_badge: "تفاعل وتطبيق عملي",
+                sec4_title: "اختبر فهمك & بوصلة التوازن المالي",
+                tab_quiz: "اختبار المعرفة (5 أسئلة)",
+                tab_compass: "مقياس الزهد العملي",
+                sec5_badge: "بطاقات قابلة للنسخ والمشاركة",
+                sec5_title: "درر وحِكم مستخلصة من الموضوع",
+                sec5_desc: "اضغط على زر النسخ في أي بطاقة لمشاركة الفائدة مع أصدقائك.",
+                footer_sub: "محتوى هادف يجمع بين الأصالة والوعي المعاصر",
+                footer_summary: "الخلاصة: لم يكن زهد النبي ﷺ عن فقر أو قلة حيلة، بل كان غنياً بفضل الله، مُمكَّناً في الأرض، لكنه جعل الدنيا في يده لا في قلبه، فجمع بين قمة الكسب الحلال وقمة الإنفاق والعطاء.",
+                footer_credit_badge: "توقيع التصميم والتطوير",
+                footer_rights: "جميع الحقوق محفوظة © Abouawd Studio — تطبيق ويب تفاعلي",
+                footer_yt_link: "رابط الفيديو الأصلي على يوتيوب",
+                toast_copied: "تم نسخ النص بنجاح إلى الحافظة!",
+
+                pillars: [
+                    {
+                        btn: "١. حقيقة الزهد",
+                        text: "الزهد الحقيقي في الإسلام ليس فقر اليد ولا ترك السعي، بل هو خلوّ القلب من التعلق بالدنيا مع امتلاكها وتوظيفها في الخير. كان ﷺ يملك المال العظيم فلا يبيت في بيته حتى يُنفقه."
+                    },
+                    {
+                        btn: "٢. الغنى النبوي",
+                        text: "امتنّ الله على نبيه بقوله: ﴿وَوَجَدَكَ عَائِلًا فَأَغْنَىٰ﴾. فبعد الهجرة والفتوح (كبني النضير وخيبر وفدك)، أفاء الله على رسوله ﷺ أموالاً وبساتين واسعة جعلته غنياً منفقاً."
+                    },
+                    {
+                        btn: "٣. لماذا جاع ﷺ؟",
+                        text: "الأحاديث الواردة عن مرور الهلالين بلا إيقاد نار أو ربط الحجر على البطن كانت في أوائل الهجرة قبل الفتوح، وبعد الغنى كان يتقلل اختياراً وإيثاراً للفقراء والمهاجرين والوفود."
+                    },
+                    {
+                        btn: "٤. الدرس لنا اليوم",
+                        text: "المؤمن القوي والغني الشاكر المنفق خير وأحب إلى الله؛ فالرسالة هي أن نسعى لامتلاك القوة الاقتصادية مع إبقاء القلب حراً متواضعاً كريماً."
+                    }
+                ],
+
+                myths: [
+                    {
+                        mythLabel: "مفهوم شائع خاطئ",
+                        truthLabel: "الحقيقة النبوية",
+                        mythTitle: "«الزهد يعني الفقر وترك الكسب»",
+                        mythBody: "يظن البعض أن الزهد لا يتحقق إلا بالفقر المادي وإهمال التجارة والعمل، وأن الغنى يتناقض مع التقوى.",
+                        truthTitle: "الزهد زهد القلب مع غنى اليد",
+                        truthBody: "عمل النبي ﷺ بالتجارة وربح فيها، ثم أفاء الله عليه من خيبر وفدك والغنائم ما يغنيه، لكن زهده كان بترك الترف الشخصي وإنفاق الملايين في سبيل الله، وقال: «نِعْمَ المالُ الصالحُ للمرءِ الصالحِ».",
+                        btnShowTruth: "اكشف الحقيقة التاريخية",
+                        btnShowMyth: "عرض الشبهة الشائعة"
+                    },
+                    {
+                        mythLabel: "مفهوم شائع خاطئ",
+                        truthLabel: "الحقيقة النبوية",
+                        mythTitle: "«التمر والماء دليل عجز مالي دائم»",
+                        mythBody: "يُفهم حديث عائشة رضي الله عنها (الأسودان: التمر والماء) على أن بيت النبوة كان عاجزاً مالياً طوال العهد المدني.",
+                        truthTitle: "تدرج تاريخي ثم إيثار اختياري",
+                        truthBody: "ضيق العيش كان في أول الهجرة، أما بعد فتح النضير وخيبر فكانت ترد عليه ﷺ أموال عظيمة يعزل منها نفقة أهله لسنة، ثم ينفقها في كفالة الفقراء وتجهيز الجيوش وإكرام الوفود.",
+                        btnShowTruth: "اكشف الحقيقة التاريخية",
+                        btnShowMyth: "عرض الشبهة الشائعة"
+                    },
+                    {
+                        mythLabel: "مفهوم شائع خاطئ",
+                        truthLabel: "الحقيقة النبوية",
+                        mythTitle: "«اللهم أحيني مسكيناً = طلب الفقر»",
+                        mythBody: "يُفسر البعض دعاء النبي ﷺ (اللهم أحيني مسكيناً) على أنه دعاء بطلب الفقر وقلة المال والحاجة للناس.",
+                        truthTitle: "المسكنة هنا تواضع القلب لله",
+                        truthBody: "بيّن العلماء (كابن تيمية والسبكي وغيرهم) أن المسكنة في الحديث هي إخبات القلب وتواضعه وعدم الكبر، بدليل أنه ﷺ كان يستعيذ بالله من الفقر ويقول: «اللهم إني أعوذ بك من الكفر والفقر».",
+                        btnShowTruth: "اكشف الحقيقة التاريخية",
+                        btnShowMyth: "عرض الشبهة الشائعة"
+                    }
+                ],
+
+                timeline: [
+                    {
+                        era: "١. مكة: الشباب والتجارة",
+                        period: "قبل البعثة",
+                        icon: "fa-briefcase",
+                        title: "السعي والكسب الحلال: التاجر الصادق الأمين",
+                        desc: "بدأ النبي ﷺ حياته العملية بالرعي ثم احترف التجارة، وخرج بمال السيدة خديجة رضي الله عنها إلى الشام فضاعف الربح بأمانته ومهارته، مما أسس لاستقلال مالي كريم قبل البعثة.",
+                        wealthLevel: "كسب تجاري مبارك واستغناء",
+                        zuhdManifest: "أمانة مطلقة، وعفة عن أموال الجاهلية، ومساعدة الضعفاء."
+                    },
+                    {
+                        era: "٢. مكة: الدعوة والحصار",
+                        period: "١ - ١٣ للبعثة",
+                        icon: "fa-shield-halved",
+                        title: "بذل الثروة في نصرة الحق والصبر في شِعب أبي طالب",
+                        desc: "وُظّفت الأموال في دعم المستضعفين وتثبيت المؤمنين الأوائل، وحين فُرض الحصار الاقتصادي في شعب أبي طالب ثلاث سنين، ضرب ﷺ أروع أمثلة الصبر والثبات.",
+                        wealthLevel: "بذل وتضحية في مواجهة الحصار",
+                        zuhdManifest: "تقديم العقيدة والإنسان على كل متاع مادي."
+                    },
+                    {
+                        era: "٣. المدينة: التأسيس والمؤاخاة",
+                        period: "١ - ٣ هـ",
+                        icon: "fa-handshake-angle",
+                        title: "بناء الدولة في ظل قلة الموارد المبدئية",
+                        desc: "في مطلع العهد المدني، استقبلت المدينة المهاجرين الذين تركوا ديارهم وأموالهم في مكة، فكانت مرحلة تقشف مشترك شارك فيها القائد ﷺ جنوده وأصحابه الجوع وربط الحجر.",
+                        wealthLevel: "موارد محدودة في طور التأسيس",
+                        zuhdManifest: "مواساة الأصحاب والعيش كواحد منهم دون امتيازات."
+                    },
+                    {
+                        era: "٤. المدينة: الفتوح والتمكين",
+                        period: "٤ - ٩ هـ",
+                        icon: "fa-sack-dollar",
+                        title: "تدفق الفيء والخُمس: الغني المنفق الذي لا يخشى الفقر",
+                        desc: "مع إجلاء بني النضير وفتح خيبر وفدك وتوسع الدولة، خُصص للنبي ﷺ سهم الصفيّ والخُمس وأوقاف زراعية واسعة (سبعة بساتين)، فكان يدير ثروة هائلة ينفقها فوراً في مصالح الأمة.",
+                        wealthLevel: "وفرة مالية كبرى وبساتين عامرة",
+                        zuhdManifest: "يعطي غنماً بين جبلين، وينام على الحصير ويكتفي بالكفاف في بيته."
+                    },
+                    {
+                        era: "٥. الختام: التركة والوقف",
+                        period: "١٠ - ١١ هـ",
+                        icon: "fa-seedling",
+                        title: "الرحيل بقلبٍ حرّ: «ما تركناه صدقة»",
+                        desc: "توفي ﷺ ولم يترك ديناراً ولا درهماً لورثته، بل جعل أراضيه وبساتينه في فدك وخيبر والمدينة وقفاً وصدقة جارية لأهله وللمسلمين، ودرعه مرهونة في نفقة عاجلة.",
+                        wealthLevel: "تحويل كامل الثروة إلى وقف للأمة",
+                        zuhdManifest: "قمة التجرد: خرج من الدنيا كما دخلها دون أن يتملكها لنفسه."
+                    }
+                ],
+
+                economy: {
+                    expenditures: [
+                        {
+                            name: "الكُراع والسلاح وتأمين الدولة",
+                            percent: 35,
+                            color: "from-emerald-500 to-teal-600",
+                            details: "كان النبي ﷺ يوجه الجزء الأكبر مما يفيء الله عليه لتجهيز الخيل (الكُراع) والسلاح وحماية ثغور الدولة الإسلامية، كما ثبت في الصحيحين أنه كان يعزل نفقة أهله لسنة ثم يجعل ما بقي في الكراع والسلاح عُدّة في سبيل الله."
+                        },
+                        {
+                            name: "إغاثة الفقراء وسداد ديون الغارمين",
+                            percent: 25,
+                            color: "from-amber-500 to-gold-600",
+                            details: "لما فُتحت الفتوح وكثرت الأموال أعلن ﷺ كفالة الديون عن المتوفين من المؤمنين قائلاً: «أنا أولى بالمؤمنين من أنفسهم، فمن توفي وعليه دَين فعليّ قضاؤه»، فكان ملجأً لكل محتاج وأرملة ويتيم."
+                        },
+                        {
+                            name: "إكرام الوفود وتأليف القلوب",
+                            percent: 25,
+                            color: "from-blue-500 to-indigo-600",
+                            details: "وظف النبي ﷺ المال بحكمة سياسية ودعوية بالغة؛ فكان يُكرم وفود القبائل، ويعطي العطايا الجزيلة لتأليف القلوب على الإسلام، حتى قال صفوان بن أمية: «والله لقد أعطاني رسول الله ﷺ ما أعطاني وإنه لأبغض الناس إليّ، فما برح يعطيني حتى إنه لأحب الناس إليّ»."
+                        },
+                        {
+                            name: "نفقة آل بيته بالمعروف والكفاف",
+                            percent: 15,
+                            color: "from-purple-500 to-pink-600",
+                            details: "كان ﷺ يدخر لأهله قوت سنة من تمر وشعير من أرض بني النضير وفدك، لكنه مع ذلك كان كثيراً ما يأتيه السائل قبل تمام السنة فينفق من ذلك القوت المدخر إيثاراً للغير."
+                        }
+                    ],
+                    sources: [
+                        {
+                            name: "الفيء والأراضي الزراعية (بني النضير وفدك)",
+                            percent: 40,
+                            color: "from-emerald-500 to-green-600",
+                            details: "ما أفاء الله على رسوله ﷺ بلا قتال (كأرض بني النضير وفدك)، وكانت موارد زراعية دائمة ينفق منها على أهله وعلى مصالح المسلمين والفقراء وابن السبيل."
+                        },
+                        {
+                            name: "خُمس الخُمس وسهم الصفيّ من الغنائم",
+                            percent: 30,
+                            color: "from-amber-500 to-yellow-600",
+                            details: "بعد غزوة بدر وخيبر وحنين، جعل الله لرسوله ﷺ نصيباً مشروعاً من الخُمس، فكان يصرفه في مصالح الدولة وكفاية المحتاجين وتجهيز البعوث."
+                        },
+                        {
+                            name: "الحوائط السبعة (الأوقاف والبساتين)",
+                            percent: 15,
+                            color: "from-teal-500 to-cyan-600",
+                            details: "سبعة بساتين بالمدينة أوصى بها الصحابي الجليل مُخيريق للنبي ﷺ يوم أُحد (الميثب، الصافية، الدلال، حسنى، برقة، الأعواف، مشربة أم إبراهيم)، فجعلها ﷺ صدقة ووقفاً."
+                        },
+                        {
+                            name: "التجارة المبكرة والهدايا",
+                            percent: 15,
+                            color: "from-indigo-500 to-violet-600",
+                            details: "في مكة كان كسبه من التجارة الحلال، وفي المدينة كان يقبل الهدايا من الملوك والقبائل والصحابة ويكافئ عليها بأحسن منها، ولا يأخذ من الصدقة لنفسه ولا لآل بيته."
+                        }
+                    ]
+                },
+
+                scenarios: [
+                    {
+                        title: "١. وادي الغنم لصفوان بن أمية",
+                        badge: "قمة الغنى + قمة الجود",
+                        wealthFact: "مظهر الثروة: امتلاك أودية مليئة بالأنعام والغنائم تحت تصرفه ﷺ.",
+                        zuhdFact: "مظهر الزهد: منح وادياً كاملاً من الغنم لرجل واحد دون تردد، فعاد الرجل إلى قومه يقول: «يا قوم أسلموا، فإن محمداً يعطي عطاء من لا يخشى الفقر!».",
+                        lesson: "لو كان فقيراً لما ملك هذا العطاء، ولو كان متعلقاً بالدنيا لما فرّط فيه!"
+                    },
+                    {
+                        title: "٢. الحصير الذي أثّر في جنبه الشريف",
+                        badge: "اختيار التواضع مع القدرة",
+                        wealthFact: "مظهر الثروة: خزائن المدينة وبساتين خيبر وفدك كانت تحت يده ﷺ.",
+                        zuhdFact: "مظهر الزهد: دخل عليه عمر بن الخطاب رضي الله عنه فوجده على حصير قد أثر في جنبه، فبكى عمر وذكّر بترف كسرى وقيصر، فقال ﷺ: «أما ترضى أن تكون لهم الدنيا ولنا الآخرة؟».",
+                        lesson: "زهده ﷺ كان قراراً واعياً ليبقى قدوة لكل فقير وغني إلى يوم القيامة."
+                    },
+                    {
+                        title: "٣. دنانير الذهب التي لم تَبِت في بيته",
+                        badge: "تحرر القلب من الاكتناز",
+                        wealthFact: "مظهر الثروة: ورود دنانير الذهب والأموال إلى بيته باستمرار.",
+                        zuhdFact: "مظهر الزهد: في مرض وفاته ﷺ تذكر بضعة دنانير كانت عند عائشة رضي الله عنها، فأمر بالتصدق بها فوراً وقال: «ما ظن محمد بربه لو لقي الله وهذه عنده؟».",
+                        lesson: "المال عند النبي ﷺ وسيلة جارية للإعمار والإنفاق، وليس غاية للتكديس."
+                    }
+                ],
+
+                quiz: [
+                    {
+                        q: "١. كيف جمع النبي ﷺ بين الثروة والزهد كما وضح الفيديو؟",
+                        options: [
+                            "ترك العمل والتجارة تماماً وعاش على مساعدة الآخرين",
+                            "مَلَك الثروة في يده ووظفها في الخير مع إبقاء قلبه زاهداً غير متعلق بها",
+                            "ادخر الأموال الطائلة لبناء القصور والمظاهر الفاخرة",
+                            "حرّم الغنى والتجارة على أصحابه"
+                        ],
+                        correct: 1,
+                        explanation: "أحسنت! جمع النبي ﷺ بين الغنى في اليد (كسباً وإنفاقاً) والزهد في القلب (تحرراً من التعلق والترف الشخصي)."
+                    },
+                    {
+                        q: "٢. ما المقصود بقوله تعالى في سورة الضحى: ﴿وَوَجَدَكَ عَائِلًا فَأَغْنَىٰ﴾؟",
+                        options: [
+                            "أنه بقي فقيراً طوال حياته حتى وفاته",
+                            "أن الله أغناه بعد العيلة بفضل التجارة ثم ما أفاء الله عليه مع غنى القلب",
+                            "أن الغنى المذكور خاص بأهل مكة فقط",
+                            "أن المال مذموم في كل الأحوال"
+                        ],
+                        correct: 1,
+                        explanation: "صحيح! الآية الكريمة تمتنّ على النبي ﷺ بأن الله أغناه بالرزق الحلال والفيء مع غنى النفس والقلب."
+                    },
+                    {
+                        q: "٣. لماذا كان يمر الهلال والهلالان ولا يوقد في بيت النبي ﷺ نار؟",
+                        options: [
+                            "لأنه لم يملك أي مصدر دخل طوال حياته",
+                            "لأن الطعام المطبوخ كان محرماً في المدينة",
+                            "كان ذلك في بداية الهجرة لضيق الحال، وبعد الفتوح كان يتقلل إيثاراً للفقراء والوفود",
+                            "لأنه كان يرفض العمل"
+                        ],
+                        correct: 2,
+                        explanation: "إجابة دقيقة! ميز العلماء بين مرحلة التأسيس الأولى بالمدينة، ومرحلة التمكين التي كان ينفق فيها أمواله على المحتاجين ومصالح الأمة."
+                    },
+                    {
+                        q: "٤. ما المعنى الصحيح لدعاء النبي ﷺ: «اللهم أحيني مسكيناً» عند المحققين من العلماء؟",
+                        options: [
+                            "طلب العجز المالي والتسول من الناس",
+                            "خضوع القلب وإخباته وتواضعه لله عز وجل وعدم التكبر",
+                            "ترك السعي والكسب الحلال",
+                            "تحريم تملك البساتين والتجارة"
+                        ],
+                        correct: 1,
+                        explanation: "ممتاز! المسكنة هنا هي مسكنة القلب وتواضعه لله، بدليل استعاذته ﷺ الصريحة من الفقر: «اللهم إني أعوذ بك من الكفر والفقر»."
+                    },
+                    {
+                        q: "٥. ماذا فعل النبي ﷺ في البساتين والأراضي التي أفاءها الله عليه (كفدك والسبعة حوائط)؟",
+                        options: [
+                            "بنى بها قصوراً خاصة",
+                            "أهمل زراعتها وتركها بوراً",
+                            "جعلها صدقة جارية ووقفاً ينفق منه على أهله بالكفاف وعلى مصالح المسلمين",
+                            "وزعها على ملوك الروم والفرس"
+                        ],
+                        correct: 2,
+                        explanation: "رائع! تحولت ثروات النبي ﷺ إلى أوقاف مستدامة تخدم الأمة، وقال ﷺ: «لا نورث، ما تركناه صدقة»."
+                    }
+                ],
+
+                compass: {
+                    title: "بوصلة التوازن المالي المستلهمة من الهدي النبوي",
+                    subtitle: "حرك المؤشرات الثلاثة لتقييم توازنك الشخصي بين السعي المالي، وزهد القلب، والعطاء المجتمعي:",
+                    sliders: [
+                        { label: "١. الاجتهاد في الكسب الحلال والإتقان المهني", desc: "اقتداءً بسعي النبي ﷺ في التجارة والعمل والأمانة." },
+                        { label: "٢. تحرر القلب من التعلق بالمظاهر والاستهلاك المفرط", desc: "اقتداءً بزهده ﷺ وتواضعه رغم القدرة المالية." },
+                        { label: "٣. المبادرة بالإنفاق والصدقة ونفع الآخرين", desc: "اقتداءً بجوده ﷺ الذي كان أجود بالخير من الريح المرسلة." }
+                    ],
+                    resultTitle: "تحليل بوصلتك المالية:",
+                    highMsg: "توازن نبوي رائع! أنت تجمع بين قوة اليد في السعي الحلال، وحرية القلب من عبودية المادة، وسخاء النفس في العطاء.",
+                    midMsg: "توازن جيد وقابل للتطوير! حافظ على سعيك المالي مع زيادة نصيب الصدقة والتخفف من الكماليات غير الضرورية.",
+                    lowMsg: "تحتاج إلى إعادة ضبط البوصلة! تذكر أن المؤمن القوي يجمع بين الإتقان في الكسب الحلال، والرضا القلبي، والإنفاق في الخير."
+                },
+
+                quotes: [
+                    {
+                        category: "حديث نبوي شريف",
+                        text: "«نِعْمَ المالُ الصالحُ للمرءِ الصالحِ»",
+                        source: "رواه الإمام أحمد وصححه الألباني — تأصيل إسلامي لقيمة الثروة حين تكون في يد مؤمن صالح ينفقها في الحق.",
+                        copyBtn: "نسخ البطاقة"
+                    },
+                    {
+                        category: "قاعدة ذهبية في الزهد",
+                        text: "«ليس الزهد ألا تملك شيئاً، ولكن الزهد ألا يملكك شيء»",
+                        source: "خلاصة منهج النبي ﷺ وصحابته الكرام؛ فالمال خادمٌ صالح في اليد، لكنه سيدٌ سيئ إذا سكن القلب.",
+                        copyBtn: "نسخ البطاقة"
+                    },
+                    {
+                        category: "شهادة تاريخية",
+                        text: "«يا قوم أسلموا، فإن محمداً يعطي عطاء من لا يخشى الفقر!»",
+                        source: "صفوان بن أمية بعد أن أعطاه النبي ﷺ غنماً تملأ ما بين جبلين، فكان الجود النبوي مفتاحاً لقلوب البشر.",
+                        copyBtn: "نسخ البطاقة"
+                    }
+                ]
+            },
+
+            en: {
+                nav_badge: "• Interactive Experience",
+                nav_title: "Wealth & Asceticism in the Prophet's ﷺ Life",
+                nav_video: "Video & Pillars",
+                nav_myths: "Myths vs. Truth",
+                nav_timeline: "Seerah Timeline",
+                nav_simulator: "Wealth Allocation",
+                nav_quiz: "Quiz & Compass",
+                hero_tag: "Interactive Exploration in Prophetic Economy & Seerah",
+                hero_title: 'How Did Prophet Muhammad ﷺ Combine <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-amber-400 to-yellow-200">Wealth & Asceticism?</span>',
+                hero_subtitle: "Was the Prophet ﷺ destitute as some assume, or was he a wealthy, generous leader who held the world in his hand without letting it enter his heart? Explore how he managed vast resources while choosing personal simplicity for the sake of his Ummah.",
+                hero_ayah_ref: "Surah Ad-Duha (93:8) — Divine blessing of enrichment after need, uniting the gratitude of the wealthy with the patience of the ascetic.",
+                stat_1_val: "Wealth in Hand",
+                stat_1_lbl: "Trade, Effort & Empowerment",
+                stat_2_val: "Zuhd in Heart",
+                stat_2_lbl: "Complete Freedom from Greed",
+                stat_3_val: "Boundless Giving",
+                stat_3_lbl: "More Generous than the Wind",
+                video_channel_lbl: "Video Source • Abouawd Studio",
+                video_duration_lbl: "Duration: 5:39 mins — Focused Insight",
+                watch_on_yt: "Watch on YouTube",
+                video_pillars_title: "Click to explore the 4 core pillars of the video:",
+                sec1_badge: "Clarifying Concepts",
+                sec1_title: "Common Misconceptions vs. Prophetic Reality",
+                sec1_desc: "Click on any card to flip between widespread misconceptions and the authentic historical & scriptural truth about the Prophet's ﷺ wealth and asceticism.",
+                sec2_badge: "Chronological Progression",
+                sec2_title: "Interactive Timeline: From Honest Trade to Financial Empowerment",
+                sec2_desc: "The Prophet's ﷺ life spanned diverse economic phases. Click through the 5 stages to see how he navigated each era with unmatched wisdom.",
+                sec3_badge: "Prophetic Economy & Allocation",
+                sec3_title: "Where Did the Prophet's ﷺ Wealth Come From & Where Did It Go?",
+                sec3_desc: "Switch between income sources and expenditure channels to see how the Prophet ﷺ transformed wealth into societal upliftment.",
+                eco_tab_exp: "Prophetic Expenditures",
+                eco_tab_src: "Sources of Wealth",
+                sim_badge: "The Prophetic Balance",
+                sim_title: "Timeless Moments: Peak Abundance with Peak Asceticism",
+                sim_desc: "Explore real historical accounts proving that the Prophet's ﷺ simplicity was a conscious choice despite vast capability, not inability.",
+                sec4_badge: "Interactive Practice",
+                sec4_title: "Knowledge Quiz & Financial Zuhd Compass",
+                tab_quiz: "Knowledge Quiz (5 Qs)",
+                tab_compass: "Personal Zuhd Compass",
+                sec5_badge: "Shareable Wisdom Cards",
+                sec5_title: "Golden Takeaways & Prophetic Gems",
+                sec5_desc: "Click the copy button on any card to share these timeless insights with friends.",
+                footer_sub: "Purposeful content combining authenticity with modern awareness",
+                footer_summary: "Summary: The Prophet's ﷺ asceticism (Zuhd) was never born of helplessness. Enriched by Allah, he placed wealth in his hand rather than his heart—combining noble earning with extraordinary generosity.",
+                footer_credit_badge: "Design & Development Credit",
+                footer_rights: "All Rights Reserved © Abouawd Studio — Interactive Web App",
+                footer_yt_link: "Original Video Link on YouTube",
+                toast_copied: "Quote copied to clipboard successfully!",
+
+                pillars: [
+                    {
+                        btn: "1. True Zuhd",
+                        text: "True asceticism (Zuhd) in Islam is not poverty of the hand or abandoning work; it is keeping the heart free from attachment while owning wealth and deploying it for good."
+                    },
+                    {
+                        btn: "2. Prophetic Wealth",
+                        text: "Allah reminded His Messenger: 'And He found you poor and made you self-sufficient' (93:8). After the conquests of Banu Nadir, Khaybar, and Fadak, vast revenues and orchards came under his stewardship."
+                    },
+                    {
+                        btn: "3. Why Simple Living?",
+                        text: "Narrations about months passing without cooking fire occurred during early Medina's hardship. Later, when wealth flowed abundantly, he chose personal simplicity to prioritize the poor, guests, and state needs."
+                    },
+                    {
+                        btn: "4. Lesson for Today",
+                        text: "A strong, productive, and generous believer is beloved to Allah. Our mission is to pursue lawful economic strength while keeping our hearts humble, detached, and charitable."
+                    }
+                ],
+
+                myths: [
+                    {
+                        mythLabel: "Common Misconception",
+                        truthLabel: "Prophetic Reality",
+                        mythTitle: "\"Asceticism Means Poverty & Leaving Work\"",
+                        mythBody: "Some assume that Zuhd requires financial destitution and avoiding business, believing wealth contradicts piety.",
+                        truthTitle: "Zuhd is in the Heart while the Hand Earns",
+                        truthBody: "The Prophet ﷺ worked as a successful merchant and later managed vast revenues from Khaybar, Fadak, and war spoils. His Zuhd lay in rejecting personal luxury and spending everything for Allah, saying: 'How excellent is righteous wealth for a righteous person!'",
+                        btnShowTruth: "Reveal Historical Truth",
+                        btnShowMyth: "View Misconception"
+                    },
+                    {
+                        mythLabel: "Common Misconception",
+                        truthLabel: "Prophetic Reality",
+                        mythTitle: "\"Dates & Water Meant Perpetual Poverty\"",
+                        mythBody: "The narration of surviving on dates and water is often misunderstood to mean the Prophet's household was financially destitute throughout his entire life.",
+                        truthTitle: "Early Hardship Followed by Voluntary Altruism",
+                        truthBody: "Scarcity marked the early years after Hijrah. Once conquests expanded state revenues, he would set aside a year's modest provision for his family and frequently give even that away to feed the needy and equip expeditions.",
+                        btnShowTruth: "Reveal Historical Truth",
+                        btnShowMyth: "View Misconception"
+                    },
+                    {
+                        mythLabel: "Common Misconception",
+                        truthLabel: "Prophetic Reality",
+                        mythTitle: "\"'Make Me Live as a Miskin' = Asking for Poverty\"",
+                        mythBody: "Some interpret the supplication 'O Allah, make me live as a Miskin' as praying for financial poverty and dependency.",
+                        truthTitle: "Miskin Here Means Humility of Heart",
+                        truthBody: "Classical scholars (like Ibn Taymiyyah and Al-Subki) explained that 'Miskin' here refers to humility and submission of the heart before Allah—proven by the fact that the Prophet ﷺ regularly sought refuge in Allah from poverty.",
+                        btnShowTruth: "Reveal Historical Truth",
+                        btnShowMyth: "View Misconception"
+                    }
+                ],
+
+                timeline: [
+                    {
+                        era: "1. Mecca: Youth & Trade",
+                        period: "Pre-Prophethood",
+                        icon: "fa-briefcase",
+                        title: "Lawful Earning: The Trustworthy Merchant",
+                        desc: "The Prophet ﷺ began his working life tending sheep and then excelled in commerce. Trading with Lady Khadijah's capital in Syria, his honesty ('Al-Sadiq Al-Amin') and skill doubled profits, establishing honourable financial independence.",
+                        wealthLevel: "Blessed Commercial Prosperity",
+                        zuhdManifest: "Absolute integrity, shunning corrupt gains, and aiding the weak."
+                    },
+                    {
+                        era: "2. Mecca: Mission & Boycott",
+                        period: "Years 1–13 of Mission",
+                        icon: "fa-shield-halved",
+                        title: "Sacrificing Wealth for Truth & Enduring the Boycott",
+                        desc: "Wealth was dedicated to supporting persecuted believers. During the three-year economic blockade in the Valley of Abu Talib, the Prophet ﷺ exemplified supreme patience and resilience.",
+                        wealthLevel: "Sacrifice & Steadfastness Under Siege",
+                        zuhdManifest: "Prioritizing faith and human dignity over material comfort."
+                    },
+                    {
+                        era: "3. Medina: Foundation Era",
+                        period: "1–3 AH",
+                        icon: "fa-handshake-angle",
+                        title: "Building a Nation Amidst Initial Scarcity",
+                        desc: "In early Medina, emigrants arrived having left their wealth in Mecca. It was a phase of shared austerity where the Leader ﷺ shared hunger with his companions.",
+                        wealthLevel: "Limited Initial State Resources",
+                        zuhdManifest: "Complete solidarity with the community without seeking privilege."
+                    },
+                    {
+                        era: "4. Medina: Financial Abundance",
+                        period: "4–9 AH",
+                        icon: "fa-sack-dollar",
+                        title: "Flow of Revenues: The Wealthy Giver Who Fears No Poverty",
+                        desc: "Following Banu Nadir, Khaybar, and Fadak, the Prophet ﷺ received lawful shares of Fay', Khums, and seven fertile orchards. Managing immense wealth, he distributed it immediately for public welfare.",
+                        wealthLevel: "Major Financial Abundance & Orchards",
+                        zuhdManifest: "Gifting valleys of sheep while sleeping on a simple reed mat."
+                    },
+                    {
+                        era: "5. Final Legacy: Waqf",
+                        period: "10–11 AH",
+                        icon: "fa-seedling",
+                        title: "Departing with a Free Heart: 'What We Leave is Charity'",
+                        desc: "He passed away leaving neither dinar nor dirham for personal inheritance; instead, all his lands and orchards in Fadak, Khaybar, and Medina became perpetual charity (Waqf) for the Ummah.",
+                        wealthLevel: "100% Conversion of Estates into Public Waqf",
+                        zuhdManifest: "Ultimate detachment: owning for the Ummah, never being owned by wealth."
+                    }
+                ],
+
+                economy: {
+                    expenditures: [
+                        {
+                            name: "Defense, Mounts & State Infrastructure",
+                            percent: 35,
+                            color: "from-emerald-500 to-teal-600",
+                            details: "As recorded in Sahih Bukhari and Muslim, after setting aside modest annual sustenance for his family from Banu Nadir's revenues, the Prophet ﷺ dedicated the largest share to horses, arms, and securing the Muslim community."
+                        },
+                        {
+                            name: "Poverty Relief & Paying Off Debts",
+                            percent: 25,
+                            color: "from-amber-500 to-gold-600",
+                            details: "When wealth flowed into Medina, the Prophet ﷺ announced state assumption of unpaid debts for deceased believers: 'Whoever leaves a debt, it is upon me to pay it,' serving as a shelter for orphans, widows, and the indebted."
+                        },
+                        {
+                            name: "Hosting Delegations & Winning Hearts",
+                            percent: 25,
+                            color: "from-blue-500 to-indigo-600",
+                            details: "He utilized wealth with profound diplomatic wisdom—honoring tribal delegations and giving generous gifts that transformed former adversaries like Safwan ibn Umayyah into devoted believers."
+                        },
+                        {
+                            name: "Modest Sustenance for His Household",
+                            percent: 15,
+                            color: "from-purple-500 to-pink-600",
+                            details: "He allocated a year's basic provision of dates and barley for his wives from Fadak and Banu Nadir, yet frequently spent from even that reserve whenever needy guests arrived before the year ended."
+                        }
+                    ],
+                    sources: [
+                        {
+                            name: "Fay' Lands & Orchards (Banu Nadir & Fadak)",
+                            percent: 40,
+                            color: "from-emerald-500 to-green-600",
+                            details: "Revenues gained peacefully without combat (such as Banu Nadir and Fadak) provided sustainable agricultural yields used for his household's basic needs, travelers, and the poor."
+                        },
+                        {
+                            name: "Allocated Share of Khums & Spoils",
+                            percent: 30,
+                            color: "from-amber-500 to-yellow-600",
+                            details: "After major expeditions like Khaybar and Hunayn, Allah designated a lawful portion of the fifth (Khums) to the Messenger ﷺ, which he channeled directly into public welfare and community needs."
+                        },
+                        {
+                            name: "The Seven Orchards (Al-Hawa'it Al-Sab'ah)",
+                            percent: 15,
+                            color: "from-teal-500 to-cyan-600",
+                            details: "Seven fertile date-palm gardens in Medina bequeathed to the Prophet ﷺ by Mukhayriq on the day of Uhud, which the Prophet ﷺ established as charitable endowments."
+                        },
+                        {
+                            name: "Early Commerce & Royal Gifts",
+                            percent: 15,
+                            color: "from-indigo-500 to-violet-600",
+                            details: "In Mecca his income came from lawful trade, and in Medina he accepted gifts from kings and companions—always reciprocating generously while never accepting obligatory Zakat for himself or his family."
+                        }
+                    ]
+                },
+
+                scenarios: [
+                    {
+                        title: "1. A Valley of Sheep for Safwan",
+                        badge: "Peak Wealth + Peak Generosity",
+                        wealthFact: "Sign of Wealth: Entire valleys teeming with livestock and flocks under the Prophet's ﷺ disposal.",
+                        zuhdFact: "Sign of Zuhd: Gifting a whole valley of sheep to a single man without hesitation, prompting Safwan to declare: 'O people, embrace Islam! Muhammad gives the gift of one who fears no poverty!'",
+                        lesson: "Had he been poor, he could never have given such wealth; had he loved materialism, he would never have parted with it!"
+                    },
+                    {
+                        title: "2. The Reed Mat That Marked His Side",
+                        badge: "Voluntary Simplicity Despite Power",
+                        wealthFact: "Sign of Wealth: The treasury of Medina and fertile estates of Khaybar and Fadak were under his authority.",
+                        zuhdFact: "Sign of Zuhd: Umar ibn Al-Khattab wept upon seeing the reed mat leave marks on the Prophet's ﷺ side while Persian and Roman emperors lived in luxury. The Prophet ﷺ replied: 'Are you not pleased that they have this world and we have the Hereafter?'",
+                        lesson: "His simplicity was a conscious choice of leadership and spiritual elevation."
+                    },
+                    {
+                        title: "3. Gold Dinars That Could Not Stay Overnight",
+                        badge: "Heart Free from Hoarding",
+                        wealthFact: "Sign of Wealth: Gold dinars and revenues regularly entered his home.",
+                        zuhdFact: "Sign of Zuhd: During his final illness, remembering a few gold dinars left in the house, he ordered them distributed immediately to the poor, saying: 'What would Muhammad think of his Lord if he met Allah while still holding these?'",
+                        lesson: "Money in the Prophetic model is a flowing river of benefit, never a stagnant pool of hoarding."
+                    }
+                ],
+
+                quiz: [
+                    {
+                        q: "1. How did Prophet Muhammad ﷺ combine wealth and asceticism (Zuhd) according to the video?",
+                        options: [
+                            "He abandoned all work and lived entirely off others",
+                            "He held wealth in his hand for good causes while keeping his heart completely free from attachment",
+                            "He hoarded vast fortunes to build personal palaces",
+                            "He forbade his companions from engaging in trade"
+                        ],
+                        correct: 1,
+                        explanation: "Spot on! The Prophet ﷺ combined financial capability in his hand (earning and spending) with true asceticism in his heart (freedom from greed and personal luxury)."
+                    },
+                    {
+                        q: "2. What does Surah Ad-Duha (93:8) 'And He found you poor and made you self-sufficient' signify?",
+                        options: [
+                            "That he remained financially destitute until the end of his life",
+                            "That Allah enriched him through lawful trade and Fay' revenues alongside richness of the soul",
+                            "That wealth is only meant for Quraysh merchants",
+                            "That money is inherently evil in Islam"
+                        ],
+                        correct: 1,
+                        explanation: "Correct! The verse highlights Allah's blessing of enriching the Prophet ﷺ materially and spiritually after his early orphanhood."
+                    },
+                    {
+                        q: "3. Why did a month or two pass without a cooking fire being lit in the Prophet's ﷺ houses?",
+                        options: [
+                            "Because he never had any source of income at any point",
+                            "Because cooked food was prohibited in Medina",
+                            "Early on it was due to Medina's initial scarcity; later after conquests, it was voluntary altruism to prioritize the poor and delegations",
+                            "Because he refused agricultural production"
+                        ],
+                        correct: 2,
+                        explanation: "Accurate! Scholars distinguish between the early foundation years of scarcity and the later era of abundance when he voluntarily gave away surpluses."
+                    },
+                    {
+                        q: "4. What is the authentic meaning of the supplication 'O Allah, make me live as a Miskin'?",
+                        options: [
+                            "Asking for financial bankruptcy and begging from people",
+                            "Humility, meekness, and submission of the heart before Allah without arrogance",
+                            "Abandoning lawful earning and trade",
+                            "Prohibiting ownership of orchards"
+                        ],
+                        correct: 1,
+                        explanation: "Excellent! Scholars explain that 'Miskin' here means humility of heart before Allah, evidenced by the Prophet's ﷺ regular prayer seeking refuge from poverty."
+                    },
+                    {
+                        q: "5. What did the Prophet ﷺ do with the fertile lands and orchards granted to him (like Fadak and the Seven Gardens)?",
+                        options: [
+                            "Built private royal palaces on them",
+                            "Left them uncultivated",
+                            "Turned them into perpetual charity (Waqf) supporting his family modestly and serving the Muslim community",
+                            "Sold them for personal hoarding"
+                        ],
+                        correct: 2,
+                        explanation: "Well done! All prophetic estates became enduring charitable endowments (Waqf) serving the Ummah."
+                    }
+                ],
+
+                compass: {
+                    title: "Financial Zuhd Compass Inspired by the Prophetic Model",
+                    subtitle: "Adjust the 3 sliders to evaluate your personal balance between lawful ambition, heart detachment, and generosity:",
+                    sliders: [
+                        { label: "1. Diligence in Lawful Earning & Professional Excellence", desc: "Following the Prophet's ﷺ example of honest trade and productivity." },
+                        { label: "2. Freedom of the Heart from Show-off & Extravagance", desc: "Following his voluntary simplicity despite financial capability." },
+                        { label: "3. Proactive Charity & Uplifting Others", desc: "Following his boundless generosity that feared no poverty." }
+                    ],
+                    resultTitle: "Your Financial Balance Analysis:",
+                    highMsg: "Outstanding Prophetic Balance! You combine a productive hand in lawful earning, a heart free from materialism, and a generous spirit.",
+                    midMsg: "Good Balance with Room to Grow! Keep up your lawful effort while increasing charitable giving and simplifying unnecessary luxuries.",
+                    lowMsg: "Time to Recalibrate! Remember that a strong believer combines excellence in earning, contentment of heart, and joyful giving."
+                },
+
+                quotes: [
+                    {
+                        category: "Prophetic Hadith",
+                        text: "\"How excellent is righteous wealth in the hand of a righteous person!\"",
+                        source: "Musnad Ahmad (Authentic) — A foundational Islamic principle showing how wealth becomes a blessing when directed toward good.",
+                        copyBtn: "Copy Quote"
+                    },
+                    {
+                        category: "Golden Rule of Zuhd",
+                        text: "\"Asceticism is not that you own nothing, but that nothing owns you.\"",
+                        source: "The essence of the Prophetic methodology: wealth is a great servant in the hand, but a terrible master if it enters the heart.",
+                        copyBtn: "Copy Quote"
+                    },
+                    {
+                        category: "Historical Testimony",
+                        text: "\"O my people, embrace Islam! For Muhammad gives the gift of one who does not fear poverty!\"",
+                        source: "Safwan ibn Umayyah after the Prophet ﷺ gifted him a valley full of sheep—turning generosity into a bridge to faith.",
+                        copyBtn: "Copy Quote"
+                    }
+                ]
+            }
+        };
+
+
+        // Render Video Pillars
+        function renderPillars() {
+            const d = i18nData[currentLang];
+            const btnContainer = document.getElementById('pillar-buttons');
+            const displayBox = document.getElementById('pillar-display');
+
+            btnContainer.innerHTML = d.pillars.map((p, idx) => {
+                const isActive = idx === activePillarIndex;
+                return `
+                    <button onclick="selectPillar(${idx})" class="py-2 px-2.5 rounded-xl text-xs font-bold transition border ${
+                        isActive 
+                            ? 'bg-emerald-600 text-white border-emerald-400 shadow' 
+                            : 'bg-slate-800/90 text-slate-300 border-slate-700 hover:bg-slate-700'
+                    }">
+                        ${p.btn}
+                    </button>
+                `;
+            }).join('');
+
+            displayBox.innerHTML = `
+                <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-lightbulb text-gold-400 text-base mt-1 shrink-0"></i>
+                    <p>${d.pillars[activePillarIndex].text}</p>
+                </div>
+            `;
+        }
+
+        function selectPillar(idx) {
+            activePillarIndex = idx;
+            renderPillars();
+        }
+
+        // Render Myths vs Reality Interactive Cards
+        function renderMyths() {
+            const d = i18nData[currentLang];
+            const grid = document.getElementById('myths-grid');
+
+            grid.innerHTML = d.myths.map((item, idx) => {
+                const isTruthShown = flippedMyths[idx];
+                if (!isTruthShown) {
+                    return `
+                        <div onclick="toggleMythCard(${idx})" class="cursor-pointer group rounded-3xl p-6 bg-white dark:bg-slate-900 border-2 border-rose-500/30 dark:border-rose-500/30 hover:border-rose-500 shadow-lg flex flex-col justify-between space-y-5">
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="px-3 py-1 rounded-full text-xs font-bold bg-rose-500/10 text-rose-600 dark:text-rose-400 border border-rose-500/20">
+                                        <i class="fa-solid fa-triangle-exclamation mx-1"></i> ${item.mythLabel}
+                                    </span>
+                                    <span class="text-xs text-slate-400 group-hover:text-rose-500 transition"><i class="fa-solid fa-rotate"></i></span>
+                                </div>
+                                <h4 class="text-lg sm:text-xl font-extrabold text-slate-900 dark:text-white">${item.mythTitle}</h4>
+                                <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">${item.mythBody}</p>
+                            </div>
+                            <button class="w-full py-2.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow">
+                                <i class="fa-solid fa-wand-magic-sparkles text-gold-300"></i>
+                                <span>${item.btnShowTruth}</span>
+                            </button>
+                        </div>
+                    `;
+                } else {
+                    return `
+                        <div onclick="toggleMythCard(${idx})" class="cursor-pointer group rounded-3xl p-6 bg-gradient-to-br from-emerald-900 to-slate-900 text-white border-2 border-emerald-400/60 shadow-xl emerald-glow flex flex-col justify-between space-y-5">
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-gold-300 border border-gold-400/30">
+                                        <i class="fa-solid fa-circle-check mx-1"></i> ${item.truthLabel}
+                                    </span>
+                                    <span class="text-xs text-emerald-300"><i class="fa-solid fa-rotate"></i></span>
+                                </div>
+                                <h4 class="text-lg sm:text-xl font-extrabold text-gold-300">${item.truthTitle}</h4>
+                                <p class="text-sm text-slate-100 leading-relaxed">${item.truthBody}</p>
+                            </div>
+                            <button class="w-full py-2.5 px-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 border border-white/15">
+                                <i class="fa-solid fa-rotate-left"></i>
+                                <span>${item.btnShowMyth}</span>
+                            </button>
+                        </div>
+                    `;
+                }
+            }).join('');
+        }
+
+        function toggleMythCard(idx) {
+            flippedMyths[idx] = !flippedMyths[idx];
+            renderMyths();
+        }
+
+
+        // Render Chronological Timeline
+        function renderTimeline() {
+            const d = i18nData[currentLang];
+            const tabsContainer = document.getElementById('timeline-tabs');
+            const contentContainer = document.getElementById('timeline-content');
+
+            tabsContainer.innerHTML = d.timeline.map((step, idx) => {
+                const isActive = idx === activeTimelineIndex;
+                return `
+                    <button onclick="selectTimeline(${idx})" class="p-3 rounded-2xl text-right sm:text-center transition border flex flex-col items-center justify-center gap-1.5 ${
+                        isActive
+                            ? 'bg-emerald-600 text-white border-emerald-500 shadow-lg scale-[1.02]'
+                            : 'bg-stone-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 border-stone-200 dark:border-slate-700 hover:bg-stone-200 dark:hover:bg-slate-700'
+                    }">
+                        <i class="fa-solid ${step.icon} ${isActive ? 'text-gold-300' : 'text-emerald-600 dark:text-emerald-400'} text-lg"></i>
+                        <span class="text-xs font-extrabold line-clamp-1">${step.era}</span>
+                        <span class="text-[11px] opacity-80">${step.period}</span>
+                    </button>
+                `;
+            }).join('');
+
+            const activeStep = d.timeline[activeTimelineIndex];
+            const wealthLbl = currentLang === 'ar' ? 'الحالة الاقتصادية والموارد:' : 'Economic State & Resources:';
+            const zuhdLbl = currentLang === 'ar' ? 'تجلّي الزهد النبوي في هذه المرحلة:' : 'Manifestation of Prophetic Zuhd:';
+
+            contentContainer.innerHTML = `
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+                    <div class="lg:col-span-7 space-y-3">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 text-xs font-bold">
+                            <i class="fa-solid ${activeStep.icon}"></i>
+                            <span>${activeStep.era} (${activeStep.period})</span>
+                        </div>
+                        <h4 class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">${activeStep.title}</h4>
+                        <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">${activeStep.desc}</p>
+                    </div>
+                    <div class="lg:col-span-5 grid grid-cols-1 gap-3">
+                        <div class="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/30">
+                            <div class="text-xs font-bold text-amber-700 dark:text-gold-400 mb-1"><i class="fa-solid fa-coins mx-1"></i> ${wealthLbl}</div>
+                            <div class="text-sm font-bold text-slate-900 dark:text-white">${activeStep.wealthLevel}</div>
+                        </div>
+                        <div class="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30">
+                            <div class="text-xs font-bold text-emerald-700 dark:text-emerald-400 mb-1"><i class="fa-solid fa-heart mx-1"></i> ${zuhdLbl}</div>
+                            <div class="text-sm font-bold text-slate-900 dark:text-white">${activeStep.zuhdManifest}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function selectTimeline(idx) {
+            activeTimelineIndex = idx;
+            renderTimeline();
+        }
+
+        // Render Economy Simulator (Sources & Expenditures)
+        function setEconomyTab(tab) {
+            currentEconomyTab = tab;
+            selectedEconomyItemIndex = 0;
+            const expBtn = document.getElementById('btn-tab-expenditures');
+            const srcBtn = document.getElementById('btn-tab-sources');
+
+            if (tab === 'expenditures') {
+                expBtn.className = "flex-1 py-2.5 px-4 rounded-xl text-xs sm:text-sm font-bold transition bg-emerald-600 text-white shadow";
+                srcBtn.className = "flex-1 py-2.5 px-4 rounded-xl text-xs sm:text-sm font-bold transition text-slate-700 dark:text-slate-300";
+            } else {
+                srcBtn.className = "flex-1 py-2.5 px-4 rounded-xl text-xs sm:text-sm font-bold transition bg-emerald-600 text-white shadow";
+                expBtn.className = "flex-1 py-2.5 px-4 rounded-xl text-xs sm:text-sm font-bold transition text-slate-700 dark:text-slate-300";
+            }
+            renderEconomy();
+        }
+
+        function renderEconomy() {
+            const d = i18nData[currentLang].economy[currentEconomyTab];
+            const barsContainer = document.getElementById('economy-bars-container');
+            const detailBox = document.getElementById('economy-detail-box');
+
+            barsContainer.innerHTML = d.map((item, idx) => {
+                const isSelected = idx === selectedEconomyItemIndex;
+                return `
+                    <div onclick="selectEconomyItem(${idx})" class="cursor-pointer p-3.5 rounded-2xl border transition ${
+                        isSelected
+                            ? 'bg-stone-100 dark:bg-slate-800 border-emerald-500 shadow-sm'
+                            : 'bg-stone-50/60 dark:bg-slate-800/40 border-stone-200/70 dark:border-slate-800 hover:border-slate-400'
+                    }">
+                        <div class="flex items-center justify-between text-xs sm:text-sm font-bold mb-2">
+                            <span class="text-slate-900 dark:text-white flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+                                ${item.name}
+                            </span>
+                            <span class="text-emerald-600 dark:text-gold-400 font-extrabold">${item.percent}%</span>
+                        </div>
+                        <div class="w-full h-3 bg-stone-200 dark:bg-slate-700 rounded-full overflow-hidden">
+                            <div class="h-full bg-gradient-to-r ${item.color} rounded-full transition-all duration-500" style="width: ${item.percent}%"></div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            const activeItem = d[selectedEconomyItemIndex];
+            const detailHint = currentLang === 'ar' ? 'تفصيل تاريخي وشرعي:' : 'Historical & Scriptural Detail:';
+            detailBox.innerHTML = `
+                <div class="flex items-start gap-3">
+                    <div class="w-9 h-9 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0 mt-0.5">
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs font-bold text-emerald-700 dark:text-emerald-300 uppercase">${detailHint} — ${activeItem.name}</div>
+                        <p class="text-xs sm:text-sm text-slate-700 dark:text-slate-200 mt-1 leading-relaxed">${activeItem.details}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        function selectEconomyItem(idx) {
+            selectedEconomyItemIndex = idx;
+            renderEconomy();
+        }
+
+
+        // Render Prophetic Scenarios
+        function renderScenarios() {
+            const scenarios = i18nData[currentLang].scenarios;
+            const btnContainer = document.getElementById('scenario-buttons');
+            const displayContainer = document.getElementById('scenario-display');
+
+            btnContainer.innerHTML = scenarios.map((sc, idx) => {
+                const isActive = idx === activeScenarioIndex;
+                return `
+                    <button onclick="selectScenario(${idx})" class="w-full p-3.5 rounded-2xl text-right flex items-center justify-between transition border ${
+                        isActive
+                            ? 'bg-gradient-to-r from-emerald-600 to-teal-700 text-white border-gold-400/60 shadow-lg'
+                            : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/10'
+                    }">
+                        <span class="font-bold text-xs sm:text-sm">${sc.title}</span>
+                        <span class="text-[11px] px-2.5 py-0.5 rounded-full ${isActive ? 'bg-black/30 text-gold-300' : 'bg-white/10 text-slate-300'}">${sc.badge}</span>
+                    </button>
+                `;
+            }).join('');
+
+            const activeSc = scenarios[activeScenarioIndex];
+            displayContainer.innerHTML = `
+                <div class="space-y-3">
+                    <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-400/30 text-xs sm:text-sm text-amber-200">
+                        <i class="fa-solid fa-gem text-gold-400 mx-1"></i> ${activeSc.wealthFact}
+                    </div>
+                    <div class="p-3 rounded-xl bg-emerald-500/10 border border-emerald-400/30 text-xs sm:text-sm text-emerald-200">
+                        <i class="fa-solid fa-feather-pointed text-emerald-400 mx-1"></i> ${activeSc.zuhdFact}
+                    </div>
+                    <div class="pt-2 border-t border-white/10 text-xs sm:text-sm font-bold text-gold-300 flex items-center gap-2">
+                        <i class="fa-solid fa-star"></i>
+                        <span>${activeSc.lesson}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        function selectScenario(idx) {
+            activeScenarioIndex = idx;
+            renderScenarios();
+        }
+
+        // Switch between Quiz and Compass
+        function switchInteractiveMode(mode) {
+            interactiveMode = mode;
+            const quizBtn = document.getElementById('mode-quiz-btn');
+            const compassBtn = document.getElementById('mode-compass-btn');
+            const quizCont = document.getElementById('quiz-container');
+            const compassCont = document.getElementById('compass-container');
+
+            if (mode === 'quiz') {
+                quizBtn.className = "px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-emerald-600 text-white shadow transition";
+                compassBtn.className = "px-4 py-2 rounded-xl text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-300 transition";
+                quizCont.classList.remove('hidden');
+                compassCont.classList.add('hidden');
+            } else {
+                compassBtn.className = "px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-emerald-600 text-white shadow transition";
+                quizBtn.className = "px-4 py-2 rounded-xl text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-300 transition";
+                compassCont.classList.remove('hidden');
+                quizCont.classList.add('hidden');
+            }
+        }
+
+        // Render Interactive Knowledge Quiz
+        function renderQuiz() {
+            const quizList = i18nData[currentLang].quiz;
+            const container = document.getElementById('quiz-container');
+
+            let correctCount = 0;
+            Object.keys(currentQuizAnswers).forEach(qIdx => {
+                if (currentQuizAnswers[qIdx] === quizList[qIdx].correct) {
+                    correctCount++;
+                }
+            });
+
+            const scoreTitle = currentLang === 'ar' ? 'نتيجتك الحالية:' : 'Your Current Score:';
+            const resetBtnTxt = currentLang === 'ar' ? 'إعادة الاختبار' : 'Reset Quiz';
+
+            const questionsHtml = quizList.map((item, qIdx) => {
+                const userAns = currentQuizAnswers[qIdx];
+                const isAnswered = userAns !== undefined;
+
+                const optionsHtml = item.options.map((opt, oIdx) => {
+                    let btnStyle = "bg-stone-50 dark:bg-slate-800/70 border-stone-200 dark:border-slate-700 text-slate-800 dark:text-slate-200 hover:border-emerald-500";
+                    let iconHtml = `<span class="w-6 h-6 rounded-full border border-slate-400 flex items-center justify-center text-xs shrink-0">${oIdx + 1}</span>`;
+
+                    if (isAnswered) {
+                        if (oIdx === item.correct) {
+                            btnStyle = "bg-emerald-500/15 border-emerald-500 text-emerald-900 dark:text-emerald-200 font-bold";
+                            iconHtml = `<i class="fa-solid fa-circle-check text-emerald-500 text-lg shrink-0"></i>`;
+                        } else if (oIdx === userAns) {
+                            btnStyle = "bg-rose-500/15 border-rose-500 text-rose-900 dark:text-rose-200";
+                            iconHtml = `<i class="fa-solid fa-circle-xmark text-rose-500 text-lg shrink-0"></i>`;
+                        }
+                    }
+
+                    return `
+                        <button onclick="answerQuiz(${qIdx}, ${oIdx})" ${isAnswered ? 'disabled' : ''} class="w-full p-3.5 rounded-2xl border text-right rtl:text-right ltr:text-left transition flex items-center gap-3 text-xs sm:text-sm ${btnStyle}">
+                            ${iconHtml}
+                            <span>${opt}</span>
+                        </button>
+                    `;
+                }).join('');
+
+                return `
+                    <div class="p-5 rounded-2xl bg-stone-50/70 dark:bg-slate-950/60 border border-stone-200 dark:border-slate-800 space-y-4">
+                        <h4 class="font-extrabold text-sm sm:text-base text-slate-900 dark:text-white">${item.q}</h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5">
+                            ${optionsHtml}
+                        </div>
+                        ${isAnswered ? `
+                            <div class="p-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-xs sm:text-sm text-emerald-800 dark:text-emerald-300 flex items-center gap-2.5">
+                                <i class="fa-solid fa-circle-info text-emerald-500 text-base shrink-0"></i>
+                                <span>${item.explanation}</span>
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = `
+                <div class="flex flex-wrap items-center justify-between gap-4 p-4 rounded-2xl bg-emerald-900/90 text-white">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-gold-500/20 border border-gold-400/40 flex items-center justify-center text-gold-300 font-black">
+                            ${correctCount}/${quizList.length}
+                        </div>
+                        <div>
+                            <div class="text-xs text-emerald-200">${scoreTitle}</div>
+                            <div class="text-sm font-extrabold">${correctCount} / ${quizList.length}</div>
+                        </div>
+                    </div>
+                    <button onclick="resetQuiz()" class="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-xs font-bold transition flex items-center gap-2">
+                        <i class="fa-solid fa-rotate-right"></i>
+                        <span>${resetBtnTxt}</span>
+                    </button>
+                </div>
+                <div class="space-y-4">
+                    ${questionsHtml}
+                </div>
+            `;
+        }
+
+        function answerQuiz(qIdx, oIdx) {
+            currentQuizAnswers[qIdx] = oIdx;
+            renderQuiz();
+        }
+
+        function resetQuiz() {
+            currentQuizAnswers = {};
+            renderQuiz();
+        }
+
+
+        // Render Personal Zuhd Compass
+        function renderCompass() {
+            const c = i18nData[currentLang].compass;
+            const container = document.getElementById('compass-container');
+
+            const avg = Math.round((compassValues[0] + compassValues[1] + compassValues[2]) / 3);
+            let feedback = c.highMsg;
+            if (avg < 50) feedback = c.lowMsg;
+            else if (avg < 75) feedback = c.midMsg;
+
+            const slidersHtml = c.sliders.map((s, idx) => `
+                <div class="p-4 rounded-2xl bg-stone-50 dark:bg-slate-950/70 border border-stone-200 dark:border-slate-800 space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-xs sm:text-sm text-slate-900 dark:text-white">${s.label}</span>
+                        <span class="text-xs font-extrabold px-2.5 py-1 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-gold-400">${compassValues[idx]}%</span>
+                    </div>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">${s.desc}</p>
+                    <input type="range" min="10" max="100" value="${compassValues[idx]}" oninput="updateCompass(${idx}, this.value)" class="w-full accent-emerald-600 cursor-pointer h-2 rounded-lg">
+                </div>
+            `).join('');
+
+            container.innerHTML = `
+                <div class="space-y-2">
+                    <h4 class="text-lg font-extrabold text-slate-900 dark:text-white">${c.title}</h4>
+                    <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400">${c.subtitle}</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    ${slidersHtml}
+                </div>
+                <div class="p-5 rounded-2xl bg-gradient-to-r from-emerald-900 to-slate-900 text-white border border-gold-400/40 flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div class="space-y-1">
+                        <div class="text-xs font-bold text-gold-400 uppercase">${c.resultTitle} (${avg}%)</div>
+                        <p class="text-sm sm:text-base font-semibold text-slate-100">${feedback}</p>
+                    </div>
+                    <div class="w-16 h-16 rounded-2xl bg-gold-500/20 border border-gold-400/40 flex items-center justify-center text-gold-300 text-xl font-black shrink-0">
+                        ${avg}%
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateCompass(idx, val) {
+            compassValues[idx] = parseInt(val, 10);
+            renderCompass();
+        }
+
+        // Render Shareable Quotes
+        function renderQuotes() {
+            const quotes = i18nData[currentLang].quotes;
+            const grid = document.getElementById('quotes-grid');
+
+            grid.innerHTML = quotes.map((q, idx) => `
+                <div class="rounded-3xl p-6 bg-white dark:bg-slate-900 border border-stone-200/90 dark:border-slate-800 shadow-lg flex flex-col justify-between space-y-5">
+                    <div class="space-y-3">
+                        <span class="inline-block text-xs font-bold px-3 py-1 rounded-full bg-amber-500/10 text-amber-700 dark:text-gold-400">
+                            ${q.category}
+                        </span>
+                        <p class="font-quote text-xl sm:text-2xl font-bold text-slate-900 dark:text-white leading-snug">
+                            ${q.text}
+                        </p>
+                        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                            ${q.source}
+                        </p>
+                    </div>
+                    <button onclick="copyQuote(${idx})" class="w-full py-2.5 px-4 rounded-xl bg-stone-100 hover:bg-emerald-600 hover:text-white dark:bg-slate-800 dark:hover:bg-emerald-600 text-slate-800 dark:text-slate-200 font-bold text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                        <i class="fa-regular fa-copy"></i>
+                        <span>${q.copyBtn}</span>
+                    </button>
+                </div>
+            `).join('');
+        }
+
+        // Safe Clipboard Copy Function using execCommand('copy')
+        function copyQuote(idx) {
+            const q = i18nData[currentLang].quotes[idx];
+            const fullText = `${q.text} — ${q.source}`;
+            const tempInput = document.createElement('textarea');
+            tempInput.value = fullText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            try {
+                document.execCommand('copy');
+                showToast(i18nData[currentLang].toast_copied);
+            } catch (err) {
+                console.error('Copy failed', err);
+            }
+            document.body.removeChild(tempInput);
+        }
+
+        function showToast(msg) {
+            const container = document.getElementById('toast-container');
+            const msgSpan = document.getElementById('toast-message');
+            msgSpan.textContent = msg;
+            container.classList.remove('opacity-0', 'translate-y-4');
+            container.classList.add('opacity-100', 'translate-y-0');
+
+            setTimeout(() => {
+                container.classList.remove('opacity-100', 'translate-y-0');
+                container.classList.add('opacity-0', 'translate-y-4');
+            }, 2600);
+        }
+
+
+        // Apply Translations Across Static Elements and Re-render Dynamic Components
+        function applyTranslations() {
+            const d = i18nData[currentLang];
+            document.documentElement.lang = currentLang;
+            document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+
+            // Update language toggle button label
+            document.getElementById('lang-btn-text').textContent = currentLang === 'ar' ? 'English' : 'العربية';
+            document.getElementById('nav-badge').textContent = d.nav_badge;
+            document.getElementById('nav-title').textContent = d.nav_title;
+
+            // Update all elements with data-i18n attribute
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (d[key]) {
+                    if (key === 'hero_title') {
+                        el.innerHTML = d[key];
+                    } else {
+                        el.textContent = d[key];
+                    }
+                }
+            });
+
+            // Re-render all interactive widgets
+            renderPillars();
+            renderMyths();
+            renderTimeline();
+            renderEconomy();
+            renderScenarios();
+            renderQuiz();
+            renderCompass();
+            renderQuotes();
+        }
+
+        // Toggle between Arabic and English
+        function toggleLanguage() {
+            currentLang = currentLang === 'ar' ? 'en' : 'ar';
+            applyTranslations();
+        }
+
+        // Toggle between Dark and Light Mode
+        function toggleTheme() {
+            isDark = !isDark;
+            const htmlEl = document.documentElement;
+            const iconEl = document.getElementById('theme-icon');
+
+            if (isDark) {
+                htmlEl.classList.add('dark');
+                iconEl.className = 'fa-solid fa-sun text-lg text-gold-400';
+            } else {
+                htmlEl.classList.remove('dark');
+                iconEl.className = 'fa-solid fa-moon text-lg text-slate-700';
+            }
+        }
+
+        // Initialize Application on Load
+        window.onload = function () {
+            applyTranslations();
+        };
+    </script>
+</body>
+</html>
